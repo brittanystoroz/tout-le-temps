@@ -15,7 +15,7 @@
     "trailing": false,
     "smarttabs": true,
     "globals": {
-        "TousLeTemps": true,
+        "App": true,
         "jQuery": true,
         "$": true,
         "Ember": true,

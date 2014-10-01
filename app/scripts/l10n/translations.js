@@ -7,14 +7,14 @@ I18n.fallbacks = true;
 I18n.translations = {
     en: {
         app: {
-            title: 'World Clock'
+            title: 'Testicons'
         },
         welcome: 'Welcome to Rec Room!'
     },
 
     fr: {
         app: {
-            title: 'Horloge de monde'
+            title: 'Testicons'
         },
         welcome: 'Bievenue à Rec Room !'
     }

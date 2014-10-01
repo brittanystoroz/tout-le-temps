@@ -1,13 +1,4 @@
-try {
-    var TousLeTemps = window.TousLeTemps = Ember.Application.create();
-} catch (error) {
-    if (error.name === 'InvalidStateError') {
-        window.indexedDB.deleteDatabase('TousLeTemps');
-        window.document.location.reload();
-    } else {
-        throw error;
-    }
-}
+var App = window.App = Ember.Application.create();
 
 // Order and include as you please.
 require('scripts/l10n/*');
